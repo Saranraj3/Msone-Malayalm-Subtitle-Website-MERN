@@ -11,13 +11,14 @@ import slider6 from "../Assets/Banner/Future_release_one_hundred_years_com.jpg";
 
 const BannerSlider = () => {
   let settings = {
-    dots: true,
+    dots: false,
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
     pauseOnHover: true,
+    arrows:false
   };
   return (
     <Slider className="h-screen m-[3.4rem] mt-0" {...settings}>
